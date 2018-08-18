@@ -23,20 +23,43 @@
                   "borderRadius": "4px",
                   "textAlign": "center",
                   "paddingTop": "40px",
-                  "paddingBottom": "40px"
+                  "paddingBottom": "40px",
+                  "color": "#ffffff"
                 }
               },
               "children": [
                 {
                   "type": "span",
-                  "text": "은자dfsfsafasdf",
+                  "text": "Profolio",
                   "props": {
                     "style": {
                       "lineHeight": "20px",
                       "backgroundColor": "#e5ffcb",
                       "color": "#92a2b3",
                       "fontSize": "33px",
-                      "fontWeight": 600
+                      "fontWeight": 700,
+                      "fontFamily": ""
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "paddingTop": "50px",
+                  "marginLeft": "100px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "Hi, i'm Eunji :)",
+                  "props": {
+                    "style": {
+                      "paddingTop": "50px"
                     }
                   }
                 }
