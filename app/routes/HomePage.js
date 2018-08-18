@@ -27,11 +27,13 @@ class HomePage extends Component {
             <span
               style={{
                 lineHeight: "20px",
-                backgroundColor: "#b8e986",
-                color: "#4a90e2"
+                backgroundColor: "#e5ffcb",
+                color: "#92a2b3",
+                fontSize: "33px",
+                fontWeight: 600
               }}
             >
-              Hello Colorful World 🖍
+              profolio
             </span>
           </div>
         </div>
