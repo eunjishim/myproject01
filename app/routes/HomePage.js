@@ -6,6 +6,8 @@
 
 import React, { Component } from "react";
 
+import { Row, Column } from "modules/Layout";
+
 class HomePage extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
@@ -13,33 +15,153 @@ class HomePage extends Component {
     return (
       <div>
 
-        <div style={{ color: "#6b6161" }}>
-          <div
-            style={{
-              height: "100px",
-              backgroundColor: "#fcecd7",
-              borderRadius: "4px",
-              textAlign: "center",
-              paddingTop: "40px",
-              paddingBottom: "40px",
-              color: "#ffffff"
-            }}
-          >
-            <span
+        <div style={{ backgroundColor: "#ffffff" }}>
+          <div style={{ color: "#ffffff", padding: "40px" }}>
+            <Row style={{ backgroundColor: "#ffffff" }}>
+              <Column mCol={1} style={{ backgroundColor: "#ffffff" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    height: "30px",
+                    alignItems: "center",
+                    backgroundColor: "#d4d4d4"
+                  }}
+                >
+                  <span />
+                </div>
+              </Column>
+              <Column mCol={7} style={{ backgroundColor: "#ffffff" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    height: "30px",
+                    alignItems: "center",
+                    backgroundColor: "#ffffff"
+                  }}
+                >
+                  <span />
+                </div>
+              </Column>
+              <Column mCol={1} style={{ backgroundColor: "#ffffff" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    height: "30px",
+                    alignItems: "center"
+                  }}
+                >
+                  <span style={{ color: "#757575" }} />
+                </div>
+              </Column>
+              <Column mCol={1} style={{ backgroundColor: "#ffffff" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    height: "30px",
+                    alignItems: "center",
+                    backgroundColor: "#ffffff"
+                  }}
+                >
+                  <span style={{ color: "#757575" }}>Work</span>
+                </div>
+              </Column>
+              <Column mCol={1} style={{ backgroundColor: "#ffffff" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    height: "30px",
+                    alignItems: "center"
+                  }}
+                >
+                  <span style={{ color: "#757575" }}>Dribble</span>
+                </div>
+              </Column>
+              <Column mCol={1} style={{ backgroundColor: "#ffffff" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    height: "30px",
+                    alignItems: "center",
+                    color: "#757575"
+                  }}
+                >
+                  <span>Email</span>
+                </div>
+              </Column>
+            </Row>
+            <div
               style={{
-                lineHeight: "20px",
-                backgroundColor: "#e5ffcb",
-                color: "#92a2b3",
-                fontSize: "33px",
-                fontWeight: 700
+                display: "flex",
+                justifyContent: "flex-start",
+                height: "640px",
+                alignItems: "center",
+                backgroundColor: "#ffffff",
+                paddingLeft: "100px"
               }}
             >
-              Profolio
-            </span>
+              <span style={{ fontSize: "87px", color: "#cacaca" }}>
+                Hello :)
+              </span>
+            </div>
+            <Row>
+              <Column style={{ width: "50%" }} col={6} mCol={12}>
+                <div
+                  style={{ backgroundColor: "#e7b4b4", paddingTop: "100%" }}
+                />
+              </Column>
+              <Column style={{ width: "50%" }} mCol={12} col={6}>
+                <div
+                  style={{
+                    position: "relative",
+                    backgroundColor: "#d39999",
+                    paddingTop: "100%"
+                  }}
+                />
+              </Column>
+              <Column style={{ width: "50%" }} mCol={12} col={6}>
+                <div
+                  style={{
+                    position: "relative",
+                    backgroundColor: "#d39999",
+                    paddingTop: "100%"
+                  }}
+                />
+              </Column>
+              <Column style={{ width: "50%" }} mCol={12} col={6}>
+                <div
+                  style={{
+                    position: "relative",
+                    backgroundColor: "#e7b4b4",
+                    paddingTop: "100%"
+                  }}
+                />
+              </Column>
+            </Row>
+            <Row>
+              <Column mCol={2} style={{ paddingTop: "50px" }}>
+                <div>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      height: "30px",
+                      alignItems: "center",
+                      backgroundColor: "#cfcfcf",
+                      borderRadius: "4px"
+                    }}
+                  >
+                    <span />
+                  </div>
+                </div>
+              </Column>
+            </Row>
           </div>
-          <p style={{ paddingTop: "50px", marginLeft: "100px" }}>
-            <span style={{ paddingTop: "50px" }}>Hi, i'm Eunji :)</span>
-          </p>
         </div>
 
       </div>
