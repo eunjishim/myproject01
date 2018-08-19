@@ -22,13 +22,15 @@ class HomePage extends Component {
                 <div
                   style={{
                     display: "flex",
-                    justifyContent: "center",
+                    justifyContent: "flex-start",
                     height: "30px",
-                    alignItems: "center",
-                    backgroundColor: "#d4d4d4"
+                    alignItems: "flex-start"
                   }}
                 >
-                  <span />
+                  <img
+                    src="https://github.com/eunjishim/myproject01/blob/master/app/assets/Oval%203.png?raw=true"
+                    style={{ width: "30" }}
+                  />
                 </div>
               </Column>
               <Column mCol={7} style={{ backgroundColor: "#ffffff" }}>
